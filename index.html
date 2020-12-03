@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Survey Form</h1>
+        <h3>Let us know how we can improve MWP Designs</h3>
+            <div class="group1">
+                <div class="name">
+                    <ul>
+                        <li>Name </li>
+                        <li>Email </li>
+                        <li>Age </li>
+                    </ul>
+                </div>
+                <div class="name-inputs">
+                     <ul>
+                        <li><input type="name" placeholder="Enter your name"></li>
+                        <li><input type="email" placeholder="Enter your email"></li>
+                        <li><input type="number" placeholder="Age"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="group2">
+                <div class="occupation">
+                    Which option best describes your current role?
+                </div>
+                <div class="occupation-box">
+                    <form action="/action-page.php">
+                        <select name="occupation" id="occupation">
+                            <option value=""></option>
+                            <option value="student">Student</option>
+                            <option value="full-time-employed">Full time employed</option>
+                            <option value="part-time-employed">Part time employed</option>
+                            <option value="unemployed">Unemployed</option>
+                            <option value="retired">Retired</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="group3">
+                <div class="recommend">
+                    How likely would you recommend MWP Designs to a friend?
+                </div>
+
+                <div class="recommend-radio">
+                    <form action="/action-page.php">
+                        <input type="radio" id="definitely" name="recommend"> Definitely</input>
+                        <br/>
+                        <input type="radio" id="definitely-maybe" name="recommend"> <i>Definitely, Maybe</i></input>
+                        <br/>
+                        <input type="radio" id="maybe" name="recommend"> Maybe</input>
+                        <br/>
+                        <input type="radio" id="not-at-all" name="recommend"> Not At All</input>
+                    </form>
+                </div>
+            </div>
+            <div class="group4">
+                <div class="like">
+                    What do you like most about MWP Designs
+                </div>
+                <div class="like-drop">
+                    <form action="/action-page.php">
+                        <select name="like" id="like">
+                            <option value=""></option>
+                            <option value="awesome-art">Awesome artwork</option>
+                            <option value="friendly-service">Friendly service</option>
+                            <option value="fast-turnaround">Fast turnaround</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="group5">
+                <div class="suggestions">
+                    Suggestions
+                </div>
+                <div class="suggestions-form">
+                    <textarea placeholder="Write suggestions here" tabindex="10" name="suggestions"></textarea>
+                </div>
+            </div>
+            <div class="submit_button">
+                <button name="submit" type="submit" id="suggestions-form" data-submit= "..sending" value="text-to-send">SUBMIT</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

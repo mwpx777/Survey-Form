@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .container1 {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    border: 80px solid #1E2D4C;
+    border-radius: 30px;
+    width: 800px;
+    height: 1000px;
+ }
+
+ h1 {
+    font-family: cursive;
+    font-size: 60px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    text-shadow: 5px 5px 5px rgb(71, 71, 71);
+ }
+
+ .container1 h3 {
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+ }
+
+.group1 {
+      display:flex;
+      justify-content: center;
+      margin: 30px;
+  }
+ .name {
+    width: 30%;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    padding: 0 40px;
+    list-style-type: none;
+ }
+
+ .name li {
+      list-style-type: none;
+      padding:5px;
+ }
+
+ .name-inputs {
+     
+    font-size: 30px;
+    width: 30%;
+    height: 50px;
+    display:flex;
+    justify-content: left;
+    color: white;
+    padding: 0 40px;
+    
+ }
+
+ .name-inputs li {
+    list-style-type: none;
+    height: 45px;
+    line-height: 30px;    
+}
+
+.group2 {
+    display:flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.occupation {
+    width: 50%;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    padding: 0 40px;
+}
+ 
+.occupation-box {
+    font-size: 30px;
+    width: 50%;
+    height: 50px;
+    display:flex;
+    justify-content: left;
+    color: white;
+    padding: 0 40px;
+}
+
+.group3 {
+    display:flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.recommend {
+    width: 50%;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    padding: 0 40px;
+}
+
+.recommend-radio {
+    font-size: 30px;
+    width: 50%;
+    height: 200px;
+    display:flex;
+    justify-content: left;
+    color: white;
+    padding: 0 40px;
+}
+
+.group4 {
+    display:flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.like {
+    width: 50%;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    padding: 0 40px;
+}
+
+.like-drop {
+    font-size: 30px;
+    width: 50%;
+    height: 50px;
+    display:flex;
+    justify-content: left;
+    color: white;
+    padding: 0 40px;
+}
+
+.group5 {
+    display:flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.suggestions {
+    width: 50%;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    padding: 0 40px;
+}
+
+.suggestions-form {
+    font-size: 60px;
+    width: 50%;
+    height: 50px;
+    display:flex;
+    justify-content: left;
+    color: white;
+    padding: 0 40px;
+}
+
+#suggestions-form {
+    background-color: #1E2D4C;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    width:100px;
+    font-size: 20px;
+    color: white;
+    margin: 30px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+}
+
+.submit_button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
