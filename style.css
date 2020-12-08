@@ -5,7 +5,7 @@
 }
 
  .container1 {
-    background-image: url("/images/background.jpg");
+    background-color: teal;
     border: 80px solid #1E2D4C;
     border-radius: 30px;
     width: 800px;
